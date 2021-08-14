@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Penjat</title>
+</head>
+<style>
+    body {
+      background-color:blanchedalmond;
+    }
+    </style>
+<title>Joc del penjat</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<body>
+    <style>
+        body {
+          background-color:blanchedalmond;
+        }
+        </style>
+    <div class="container">
+        <h1 class="text-center">LA GRAN QÜESTIÓ</h1>
+        <div class="text-center">
+        <img id="imatge" src="./resources/0.png" alt="" width="350" height= "350">
+        <p id="tempsRestant"></p>
+        <p></p>
+        <p class="text-center">El sentit de la vida és ...</p>
+        <p id="estatParaula"></p>
+        <p></p>
+        <div id="botonsPantalla"></div>
+        <p></p>
+        <div class="text-center" id="intentsPerduts">Respostes errònies <span id='errors'>0</span> de <span id='maximErrors'></span></div>
+        <p></p>
+        <button class="btn btn-warning" onClick="reiniciar()">Torna-ho a intentar</button>
+        </div>
+    </div>
+    <script src='./programaPenjat.js'></script>
+</body>
+</html>
+
+
+
